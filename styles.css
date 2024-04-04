@@ -121,6 +121,7 @@ h3{text-align:center;
 /* General styles for the container */
 .why-us-container {
   display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
