@@ -129,21 +129,20 @@ h3{text-align:center;
 
 /* Add general styles for the cards */
 .why-us-card {
- padding: 15px;
+  padding: 15px;
   border-radius: 10px;
   background-color: #f77877;
   margin: 15px; /* Adjusted margin for better spacing */
   flex: 1 0 300px; /* Adjusted to fit three cards in a row on larger screens */
-  max-width: 300px;
+  max-width: 300px; /* Added max-width for better control on larger screens */
 }
 
 /* Make the images responsive */
 .why-us-card-img {
-   border-radius: 10px;
+  border-radius: 10px;
   width: 100%; /* Added to ensure image fills its container */
-  height: auto; 
+  height: auto; /* Added to maintain aspect ratio */
 }
-
 
 .footer {
   background-color: #333;
