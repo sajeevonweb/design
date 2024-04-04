@@ -122,30 +122,26 @@ h3{text-align:center;
 .why-us-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
 }
 
 /* Add general styles for the cards */
 .why-us-card {
-  width: calc(100% / 3 - 20px); /* Adjusted width to accommodate margins */
-  margin-bottom: 20px; /* Margin between the cards */
-  box-sizing: border-box;
-  text-align: center;
+ padding: 15px;
+  border-radius: 10px;
+  background-color: #f77877;
+  margin: 15px; /* Adjusted margin for better spacing */
+  flex: 1 0 300px; /* Adjusted to fit three cards in a row on larger screens */
+  max-width: 300px;
 }
 
 /* Make the images responsive */
 .why-us-card-img {
-  max-width: 100%;
-  height: auto;
+   border-radius: 10px;
+  width: 100%; /* Added to ensure image fills its container */
+  height: auto; 
 }
-
-/* Media query for PC view */
-@media (min-width: 768px) {
-  .why-us-card {
-    width: calc(100% / 3 - 20px); /* Adjusted width to accommodate margins */
-  }
-}
-
 
 
 .footer {
