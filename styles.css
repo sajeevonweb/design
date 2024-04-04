@@ -105,20 +105,19 @@ h3{text-align:center;
   padding: 15px;
   border-radius: 10px;
   background-color: #f77877;
-  margin: 15px; /* Adjusted margin for better spacing */
-  flex: 1 0 300px; /* Adjusted to fit three cards in a row on larger screens */
-  max-width: 300px; /* Added max-width for better control on larger screens */
+  margin: 15px;
+  flex: 1 0 300px;
+  max-width: 300px;
 }
 
 .service-card-img {
   border-radius: 10px;
-  width: 100%; /* Added to ensure image fills its container */
-  height: auto; /* Added to maintain aspect ratio */
+  width: 100%;
+  height: auto;
 }
 
 }
 
-/* General styles for the container */
 .why-us-container {
   display: flex;
   flex-direction: row;
@@ -127,21 +126,19 @@ h3{text-align:center;
   gap: 20px;
 }
 
-/* Add general styles for the cards */
 .why-us-card {
   padding: 15px;
   border-radius: 10px;
   background-color: #f77877;
-  margin: 15px; /* Adjusted margin for better spacing */
-  flex: 1 0 300px; /* Adjusted to fit three cards in a row on larger screens */
-  max-width: 300px; /* Added max-width for better control on larger screens */
+  margin: 15px; 
+  flex: 1 0 300px;
+  max-width: 300px;
 }
 
-/* Make the images responsive */
 .why-us-card-img {
   border-radius: 10px;
-  width: 100%; /* Added to ensure image fills its container */
-  height: auto; /* Added to maintain aspect ratio */
+  width: 100%; 
+  height: auto;
 }
 
 .footer {
