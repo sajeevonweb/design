@@ -94,21 +94,28 @@ h3{text-align:center;
   }
 }
 
-.services-main{
-  display:flex;
-  flex-direction:row;
-  gap:20px
-    align-items: center;
+.services-main {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+  gap: 20px;
 }
-.services-card{
-  padding:15px;
-  border-radius:10px;
-  background-color:#f77877;
-  margin:30px;
+
+.services-card {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f77877;
+  margin: 15px; /* Adjusted margin for better spacing */
+  flex: 1 0 300px; /* Adjusted to fit three cards in a row on larger screens */
+  max-width: 300px; /* Added max-width for better control on larger screens */
 }
-.service-card-img{
-  border-radius:10px;
+
+.service-card-img {
+  border-radius: 10px;
+  width: 100%; /* Added to ensure image fills its container */
+  height: auto; /* Added to maintain aspect ratio */
+}
+
 } 
 
 .why-us-container {
