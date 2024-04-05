@@ -102,6 +102,7 @@ h3{text-align:center;
 .services-card {
   padding: 1.5rem;
   border-radius: 10px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 background: linear-gradient(225deg, hsla(172, 79%, 83%, 1) 0%, hsla(173, 100%, 89%, 1) 0%, hsla(210, 75%, 92%, 1) 30%, hsla(168, 48%, 89%, 1) 57%, hsla(210, 75%, 92%, 1) 78%, hsla(173, 100%, 89%, 1) 100%);
   margin: 1rem;
   flex: 1 0 300px;
@@ -116,7 +117,7 @@ background: linear-gradient(225deg, hsla(172, 79%, 83%, 1) 0%, hsla(173, 100%, 8
 .why-us-card {
   padding: 1rem;
   border-radius: 10px;
-  background-color: #f77877;
+ box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 margin: 0.5rem;
   flex: 1 0 150px;
 }
