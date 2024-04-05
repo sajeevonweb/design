@@ -79,9 +79,10 @@ background: linear-gradient(225deg, hsla(172, 79%, 83%, 1) 0%, hsla(173, 100%, 8
   width: 100%;
   height: auto;
 }
-.h4s
-{
-  font-size:1.8rem
+.h4s {
+  font-size:1.8rem;
+  padding-top:1rem;
+  margin: 0px;
 }
 
 .why-us-card {
@@ -92,65 +93,6 @@ margin: 0.5rem;
   flex: 1 0 150px;
 }
 
-
-.footer {
-  background-color: #333;
-  color: #fff;
-  padding: 50px;
-}
-
-.contact-info {
-  max-width: 600px;
-  margin: 0 auto;
-}
-
-.contact-info h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul li {
-  margin-bottom: 10px;
-}
-
-ul li i {
-  margin-right: 10px;
-  font-size: 20px;
-}
-
-ul li i.fas {
-  color: #ffa500; /* Change color of phone icon */
-}
-
-ul li i.far {
-  color: #ff4500; /* Change color of envelope icon */
-}
-
-ul li i.fab {
-  color: #bc2a8d; /* Change color of Instagram icon */
-}
-
-.social-icons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.icon-link {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 24px;
-  color: #fff;
-  transition: transform 0.3s ease;
-}
-
-.icon-link:hover {
-  transform: scale(1.2);
-}
 
 
 .testimonials {
@@ -270,5 +212,65 @@ h2 {
   .portfolio56c {
     width: calc(100% - 40px);
   }
+}
+
+/*footer Code*/
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 50px;
+}
+
+.contact-info {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-info h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+ul li i.fas {
+  color: #ffa500; /* Change color of phone icon */
+}
+
+ul li i.far {
+  color: #ff4500; /* Change color of envelope icon */
+}
+
+ul li i.fab {
+  color: #bc2a8d; /* Change color of Instagram icon */
+}
+
+.social-icons {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.icon-link {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 24px;
+  color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.icon-link:hover {
+  transform: scale(1.2);
 }
 
