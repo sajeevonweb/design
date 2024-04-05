@@ -100,10 +100,10 @@ h3{text-align:center;
 }
 
 .services-card {
-  padding: 15px;
+  padding: 1.5rem;
   border-radius: 10px;
   background-color: #f77877;
-  margin: 15px;
+  margin: 1rem;
   flex: 1 0 300px;
 }
 
@@ -114,10 +114,10 @@ h3{text-align:center;
 }
 
 .why-us-card {
-  padding: 1.5%;
+  padding: 1rem;
   border-radius: 10px;
   background-color: #f77877;
-margin: 0.8%;
+margin: 0.5rem;
   flex: 1 0 150px;
 }
 
