@@ -113,6 +113,10 @@ background: linear-gradient(225deg, hsla(172, 79%, 83%, 1) 0%, hsla(173, 100%, 8
   width: 100%;
   height: auto;
 }
+.h4s
+{
+  font-size:1.8rem
+}
 
 .why-us-card {
   padding: 1rem;
