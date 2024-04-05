@@ -6,52 +6,44 @@ body {
 
 
 /*general style*/
-section {
-      padding:5%;
-      margin: 1%;
-    }
-h3{text-align:center;
+h3
+{
+  text-align:center;
   font-size:2.5rem;
 }
-.container6 {
+section {
+  padding: 5%;
+  margin: 1%;
+  border-bottom: 1px solid #d4d4d4;
+}
+.container6main {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
-  width: 100%;
 }
 
-
+.container6 {
+  border-radius: 10px;
+  margin: 0;
+  flex: 1 1 45%; 
+  max-width: 45%;
+}
 
 .image6 {
   width: 100%;
-  max-width: 100%;
   height: auto;
-  margin-top: 20px;
 }
-.text-container6 {
-  text-align: center;
-  margin-top: 20px;
-  max-width: 100%;
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .container6 {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
 }
-.page-title6 {
-  font-size: 2.3rem;
-  font-weight: 600;
-  margin: 0;
-  padding-top: 20px;
-  text-align: left;
-}
-.page-paragraph6 {
-  font-size: 16px;
-  margin: 10px 0;
-  max-width: 100%;
-  text-align: left;
-}
-.button-container6 {
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
-  width: 100%;
-}
+.title6{font-size: 2.3rem;
+  font-weight: 600;}
 .green-button6 {
   background-color: #00587A;
   transition: all 0.3s ease;
@@ -59,40 +51,11 @@ h3{text-align:center;
   font-size: 1rem;
   font-weight: 500;
   padding: 10px 30px;
-  border: none;
   border-radius: 0.5rem;
   cursor: pointer;
+  border:none;
 }
-.green-button6:hover {
-  background-color: #00587A;
-  transform: scale(1.05);
-}
-@media (min-width: 769px) {
-  .container6 {
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .button-container6 {
-    justify-content: flex-start;
-  }
-  .image6 {
-    width: 50%;
-    margin-right: 20px;
-    margin-top: 0;
-  }
-  .text-container6 {
-    width: 50%;
-    text-align: left;
-  }
-  .page-paragraph6 {
-    text-align: left;
-  }
-  .green-button6 {
-    padding: 1.5% 10%;
-    font-size: 1.2rem;
-  }
-}
+
 .services-main,.why-us-container {
   display: flex;
   flex-wrap: wrap;
