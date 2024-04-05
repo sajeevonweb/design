@@ -98,7 +98,8 @@ background: linear-gradient(225deg, hsla(172, 79%, 83%, 1) 0%, hsla(173, 100%, 8
   border-radius: 10px;
  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 margin: 0.5rem;
-  flex: 1 0 150px;
+  flex: 1 0 200px;
+  max-width: 500px;
 }
 
 
