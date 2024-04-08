@@ -57,17 +57,6 @@ section {
 
 .title6{font-size: 2.3rem;
   font-weight: 600;}
-.green-button6 {
-  background-color: #00587A;
-  transition: all 0.3s ease;
-  color: #fff;
-  font-size: 1rem;
-  font-weight: 500;
-  padding: 10px 30px;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  border:none;
-}
 
 .services-main,.why-us-container,.portfolio56main {
   display: flex;
@@ -133,72 +122,6 @@ flex: 1 0 100px;
   border-radius: 5px;
 }
 
-
-.testimonials {
-  background-color: #f9f9f9;
-  padding: 50px 0;
-}
-
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-h2 {
-  margin-bottom: 30px;
-  color: #333;
-}
-
-.container {
-  max-width: 900px;
-  margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap:5px;
-}
-
-.testimonial {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 10px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  flex: 0 1 calc(33.333% - 40px); /* 3 testimonials per row with spacing */
-  margin-bottom: 30px;
-  text-align: center;
-}
-
-.testimonial img {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  margin-bottom: 15px;
-}
-
-.testimonial p {
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 15px;
-}
-
-.author {
-  font-weight: bold;
-  color: #666;
-}
-
-@media screen and (max-width: 768px) {
-  .testimonial {
-    flex: 0 1 calc(50% - 40px); /* 2 testimonials per row with spacing */
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .testimonial {
-    flex: 0 1 calc(100% - 40px); /* 1 testimonial per row with spacing */
-  }
-}
-
 /*footer Code*/
 .footer {
   background-color: #333;
@@ -241,21 +164,3 @@ ul li i.far {
 ul li i.fab {
   color: #bc2a8d; /* Change color of Instagram icon */
 }
-
-.social-icons {
-  text-align: center;
-  margin-top: 20px;
-}
-
-.icon-link {
-  display: inline-block;
-  margin: 0 10px;
-  font-size: 24px;
-  color: #fff;
-  transition: transform 0.3s ease;
-}
-
-.icon-link:hover {
-  transform: scale(1.2);
-}
-
