@@ -44,6 +44,9 @@ section {
   width: 100%;
   height: auto;
 }
+.button6{
+background-color:#000;
+}
 
 /* Responsive Layout */
 @media (max-width: 768px) {
