@@ -82,7 +82,7 @@ background: linear-gradient(225deg, hsla(172, 79%, 83%, 1) 0%, hsla(173, 100%, 8
   flex: 1 0 300px;
 }
 
-.service-card-img, .why-us-card-img  {
+.service-card-img  {
   border-radius: 10px;
   width: 100%;
   height: auto;
