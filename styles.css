@@ -6,6 +6,7 @@ body {
 
 
 /*general style*/
+
 P {
   line-height: 1.5rem;
 font-size:14px
@@ -45,7 +46,7 @@ section {
   height: auto;
 }
 .button6{
-background-color:#000;
+background-color:#fff;
 }
 
 /* Responsive Layout */
