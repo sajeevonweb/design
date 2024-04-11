@@ -130,10 +130,15 @@ flex: 1 0 180px;
   margin: 0px;
 }
 
-
 .text-button56 {
-  background-color: none;
-  color: blue;
+  background: none;
+  color: #02c7b3;
+}
+.text-button56:hover{
+  text-decoration: underline;
+  transform: scale(1.05);
+  color: #01a393;
+
 }
 
 /*footer Code*/
