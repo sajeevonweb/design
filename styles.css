@@ -111,10 +111,10 @@ flex: 1 0 180px;
 
 .portfolio56c {
   text-align: center;
-  background-color: #5555;
    flex: 1 0 250px;
    border-radius: 10px;
   padding-bottom: 10px;
+   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .img56 {
