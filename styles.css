@@ -89,6 +89,7 @@ button {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 background: linear-gradient(225deg, hsla(172, 79%, 83%, 1) 0%, hsla(173, 100%, 89%, 1) 0%, hsla(210, 75%, 92%, 1) 30%, hsla(168, 48%, 89%, 1) 57%, hsla(210, 75%, 92%, 1) 78%, hsla(173, 100%, 89%, 1) 100%);
 flex: 1 0 180px;
+  transition: all 0.3s ease;
 }
 
 .service-card-img  {
@@ -107,6 +108,7 @@ flex: 1 0 180px;
   border-radius: 1rem;
  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   flex: 1 0 230px;
+  transition: all 0.3s ease;
 }
 
 .portfolio56c {
@@ -183,3 +185,11 @@ ul li i.far {
 ul li i.fab {
   color: #bc2a8d; /* Change color of Instagram icon */
 }
+
+
+/*hover and interaction design*/
+.services-card:hover {
+   transform: scale(1.05) rotate(360deg);
+   filter: saturate(2);
+}
+
