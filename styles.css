@@ -190,7 +190,7 @@ ul li i.fab {
 
 /*hover and interaction design*/
 .services-card:hover {
-   transform: scale(1.05) rotate(360deg);
+   transform: scale(1.05);
    filter: saturate(2);
 }
 .image6:hover
