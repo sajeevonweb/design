@@ -192,10 +192,13 @@ ul li i.fab {
 
 
 /*hover and interaction design*/
-.services-card,.portfolio56c:hover {
+.services-card:hover,.portfolio56c:hover {
    transform: scale(1.05);
    filter: saturate(2);
 }
+
+
+
 .image6:hover {
   filter:saturate(2)
 }
