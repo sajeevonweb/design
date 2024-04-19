@@ -119,6 +119,7 @@ transition: all 0.3s ease-in-out ;
    border-radius: 10px;
   padding-bottom: 10px;
    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  transition: all 0.3s ease;
 }
 
 .img56 {
@@ -126,6 +127,7 @@ transition: all 0.3s ease-in-out ;
   border-radius: 10px;
   object-fit: cover;
   height: 250px;
+  transition: all 0.3s ease;
   
 }
 
