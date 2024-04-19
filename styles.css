@@ -54,7 +54,7 @@ button {
 .image6 {
   width: 100%;
   height: auto;
-    transition: all 0.8s ease-in-out ;
+ transition: all 0.8s ease-in-out;
 }
 .button6:hover {
   border-radius: 1.5rem;
@@ -90,7 +90,7 @@ button {
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 background: linear-gradient(225deg, hsla(172, 79%, 83%, 1) 0%, hsla(173, 100%, 89%, 1) 0%, hsla(210, 75%, 92%, 1) 30%, hsla(168, 48%, 89%, 1) 57%, hsla(210, 75%, 92%, 1) 78%, hsla(173, 100%, 89%, 1) 100%);
 flex: 1 0 180px;
-    transition: all 0.3s ease-in-out ;
+ transition: all 0.3s ease-in-out ;
 }
 
 .service-card-img  {
@@ -196,8 +196,7 @@ ul li i.fab {
    transform: scale(1.05);
    filter: saturate(2);
 }
-.image6:hover
-{
+.image6:hover {
   filter:saturate(2)
 }
 
