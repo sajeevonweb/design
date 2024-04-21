@@ -195,9 +195,8 @@ ul li i.fab {
 .services-card:hover,.portfolio56c:hover {
    transform: scale(1.05);
    filter: saturate(2);
+   border-radius:2rem;
 }
-
-
 
 .image6:hover {
   filter:saturate(2)
@@ -207,5 +206,7 @@ ul li i.fab {
   scale: 1.2;
 }
 .why-us-card:hover{
-  scale:1.05
+ scale:1.05;
+ border-radius:2rem;
+
 }
