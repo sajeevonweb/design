@@ -54,7 +54,7 @@ button {
 .image6 {
   width: 100%;
   height: auto;
- transition: all 0.8s ease-in-out;
+ transition: all 0.2s ease-in-out;
 }
 .button6:hover {
   border-radius: 1.5rem;
@@ -199,7 +199,7 @@ ul li i.fab {
 }
 
 .image6:hover {
-  filter:saturate(2)
+  filter:saturate(1.2)
 }
 
 .service-card-img:hover {
