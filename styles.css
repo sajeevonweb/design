@@ -139,6 +139,7 @@ transition: all 0.3s ease-in-out ;
 .text-button56 {
   background: none;
   color: #02c7b3;
+  text-decoration:none;
 }
 .text-button56:hover{
   text-decoration: underline;
